@@ -9,8 +9,10 @@ import { LayoutGrid } from "@/app/components/utils/ui/LayoutGrid";
 
 export default function Projects() {
   return (
-    <div className="h-screen py-20 w-full border ">
-      <h1 className="text-7xl px-10">Projects</h1>
+    <div className="h-screen py-20 w-full ">
+      <h1 className="md:text-5xl text-xl text-start px-20 sm:px-10 ">
+        Projects
+      </h1>
       <LayoutGrid cards={videos} />
     </div>
   );
@@ -33,7 +35,7 @@ const SkeletonOne = ({ video }: { video: string }) => {
 
 const SkeletonTwo = ({ video }: { video: string }) => {
   return (
-    <div>
+    <div className="flex flex-row items-center">
       <iframe
         width="870"
         height="400"
@@ -47,7 +49,7 @@ const SkeletonTwo = ({ video }: { video: string }) => {
 };
 const SkeletonThree = ({ video }: { video: string }) => {
   return (
-    <div>
+    <div className="flex flex-row items-center">
       <iframe
         width="870"
         height="400"
@@ -61,7 +63,7 @@ const SkeletonThree = ({ video }: { video: string }) => {
 };
 const SkeletonFour = ({ video }: { video: string }) => {
   return (
-    <div>
+    <div className="flex flex-row items-center">
       <iframe
         width="870"
         height="400"
@@ -77,28 +79,28 @@ const SkeletonFour = ({ video }: { video: string }) => {
 const videos = [
   {
     id: 1,
-    content: <SkeletonOne video="https://www.youtube.com/embed/7tl0l3bRQjA" />,
-    className: "md:col-span-2 flex justify-center",
-    thumbnail: res2,
+    content: <SkeletonOne video="https://www.youtube.com/embed/W5SLVSjdibk" />,
+    className: "md:col-span-2  flex justify-center",
+    thumbnail: res1,
   },
   {
     id: 2,
-    content: <SkeletonTwo video="https://www.youtube.com/embed/LREzajthtd8" />,
+    content: <SkeletonTwo video="https://www.youtube.com/embed/7tl0l3bRQjA" />,
     className: "col-span-1",
-    thumbnail: res1,
+    thumbnail: res2,
   },
   {
     id: 3,
     content: (
-      <SkeletonThree video="https://www.youtube.com/embed/zMBfu6kXLPY" />
+      <SkeletonThree video="https://www.youtube.com/embed/mWmfqrrMUIM" />
     ),
     className: "col-span-1",
-    thumbnail: res3,
+    thumbnail: res4,
   },
   {
     id: 4,
-    content: <SkeletonFour video="https://www.youtube.com/embed/mWmfqrrMUIM" />,
+    content: <SkeletonFour video="https://www.youtube.com/embed/zMBfu6kXLPY" />,
     className: "md:col-span-2",
-    thumbnail: res4,
+    thumbnail: res3,
   },
 ];
