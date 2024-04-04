@@ -1,5 +1,5 @@
 import Projects from "@/app/components/projects/Projects";
-import Presentation from "./components/presentation/presentation";
+import Presentation from "@/app/components/presentation/Presentation";
 
 export default function Home() {
   return (

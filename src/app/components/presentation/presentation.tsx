@@ -9,7 +9,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export default function presentation() {
+export default function Presentation() {
   const [isFollowed, setIsFollowed] = React.useState(false);
 
   return (
