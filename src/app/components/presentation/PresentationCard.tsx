@@ -9,7 +9,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-const Presentation = () => {
+const PresentationCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
 
   return (
@@ -62,4 +62,4 @@ const Presentation = () => {
   );
 };
 
-export default Presentation;
+export default PresentationCard;

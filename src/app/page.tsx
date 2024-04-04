@@ -1,5 +1,5 @@
 import Projects from "@/app/components/projects/Projects";
-import Presentation from "@/app/components/presentation/Presentation";
+import PresentationCard from "@/app/components/presentation/PresentationCard";
 
 export default function Home() {
   return (
@@ -8,8 +8,7 @@ export default function Home() {
         className="border border-red-400 md:w-[1280px] pt-10 flex flex-row justify-start
       md:p-10"
       >
-        {" "}
-        <Presentation />
+        <PresentationCard />
       </div>
 
       <div className="z-10 max-w-5xl w-full items-center border border-yellow-400 justify-between font-mono text-sm lg:flex">
