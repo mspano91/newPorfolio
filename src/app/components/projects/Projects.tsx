@@ -4,7 +4,7 @@ import res2 from "../assets/img/res2.png";
 import res3 from "../assets/img/res3.png";
 import res4 from "../assets/img/res4.png";
 
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import { LayoutGrid } from "@/app/components/utils/ui/LayoutGrid";
 
 export default function Projects() {
