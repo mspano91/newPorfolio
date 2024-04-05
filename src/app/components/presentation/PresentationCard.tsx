@@ -74,7 +74,7 @@ const PresentationCard = () => {
 
           <a
             download
-            href="@/../public/assets/SpanoCv.pdf"
+            href="/assets/SpanoCv.pdf"
             className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer"
           >
             CV 📎
