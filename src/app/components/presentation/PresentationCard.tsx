@@ -8,6 +8,7 @@ import {
   Avatar,
   Button,
 } from "@nextui-org/react";
+import Link from "next/link";
 
 const PresentationCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
@@ -51,11 +52,33 @@ const PresentationCard = () => {
       <CardFooter className="gap-3">
         <div className="flex gap-1">
           {/* <p className="font-semibold text-default-400 text-small">4</p> */}
-          <p className=" text-default-400 text-small ">Linkedin</p>
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/matias-spano-102b24116/"
+          >
+            <p className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer">
+              Linkedin
+            </p>
+          </Link>
         </div>
         <div className="flex gap-1">
           {/* <p className="font-semibold text-default-400 text-small">97.1K</p> */}
-          <p className="text-default-400 text-small">Github</p>
+          <Link target="_blank" href="https://github.com/mspano91">
+            <p className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer">
+              Github
+            </p>
+          </Link>
+        </div>
+        <div className="flex gap-1">
+          {/* <p className="font-semibold text-default-400 text-small">97.1K</p> */}
+
+          <a
+            download
+            href="@/../public/assets/SpanoCv.pdf"
+            className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer"
+          >
+            CV 📎
+          </a>
         </div>
       </CardFooter>
     </Card>
