@@ -16,9 +16,14 @@ const PresentationCard = () => {
   return (
     <Card className="max-w-[540px] bg-neutral-700 ">
       <CardHeader className="justify-between">
+        <Avatar
+          isBordered
+          radius="full"
+          size="lg"
+          src="/assets/mati9.png"
+          className="mx-auto transition-transform duration-300 ease-in-out hover:scale-150 hover:translate-y-4 hover:translate-x-4 z-10"
+        />
         <div className="flex gap-5">
-          <Avatar isBordered radius="full" size="lg" src="/assets/mati7.png" />
-
           <div className="flex flex-col gap-1 items-start justify-center">
             <h4 className="text-medium text-white font-semibold leading-none">
               Mati Spano 💻⚡
@@ -31,7 +36,7 @@ const PresentationCard = () => {
         <Button
           className={
             isFollowed
-              ? "bg-transparent text-foreground border-default-200"
+              ? "bg-transparent text-foreground border-default-200 w-[80px]"
               : ""
           }
           color="primary"
@@ -66,6 +71,13 @@ const PresentationCard = () => {
           <Link target="_blank" href="https://github.com/mspano91">
             <p className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer">
               Github
+            </p>
+          </Link>
+        </div>
+        <div className="flex gap-1">
+          <Link target="_blank" href="https://www.behance.net/mspanopabl3a5d">
+            <p className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer">
+              Behance
             </p>
           </Link>
         </div>

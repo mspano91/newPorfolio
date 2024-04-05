@@ -3,15 +3,18 @@ import res1 from "../assets/img/res1.png";
 import res2 from "../assets/img/res2.png";
 import res3 from "../assets/img/res3.png";
 import res4 from "../assets/img/res4.png";
-
 import React from "react";
 import { LayoutGrid } from "@/app/components/utils/ui/LayoutGrid";
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Projects() {
   return (
-    <div className="h-screen py-20 w-full ">
-      <h1 className="md:text-5xl text-xl text-start px-20 sm:px-10 ">
-        Projects
+    <div className="h-screen w-full">
+      <h1
+        className={`${inter.className} md:text-5xl text-3xl md:text-start px-10 text-center `}
+      >
+        My Projects
       </h1>
       <LayoutGrid cards={videos} />
     </div>
