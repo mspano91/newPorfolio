@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
         <p className="font-extralight text-xs text-center md:text-start px-8 pb-4">
           Tailwind for styling and is deployed seamlessly through Vercel.
-          Typography is stylized with 'Inter'.
+          Typography is stylized with Inter.
         </p>
         <p className="font-extralight text-xs  text-center md:text-start px-8 ">
           Developed and designed by Spano Matias, © Copyright 2024.
