@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Projects() {
   return (
-    <div className="md:h-screen w-full ">
+    <div className="md:h-screen w-full p-4 lg:p-0 ">
       <h1
         className={`${inter.className} md:text-5xl text-3xl md:text-start px-8 text-center`}
       >

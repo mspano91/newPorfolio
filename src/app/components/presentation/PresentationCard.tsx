@@ -14,7 +14,7 @@ const PresentationCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
 
   return (
-    <Card className="max-w-[540px] bg-neutral-700 ">
+    <Card className="max-w-full bg-neutral-700">
       <CardHeader className="justify-between">
         <Avatar
           isBordered
