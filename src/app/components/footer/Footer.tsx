@@ -6,11 +6,8 @@ export default function Footer() {
       <div className="w-full">
         <p className="font-extralight text-xs text-center md:text-start px-8 pt-8">
           Developed using Visual Studio Code and powered by Next.js, this
-          project incorporates
-        </p>
-        <p className="font-extralight text-xs text-center md:text-start px-8 pb-4">
-          Tailwind for styling and is deployed seamlessly through Vercel.
-          Typography is stylized with Inter.
+          project incorporates Tailwind for styling and is deployed seamlessly
+          through Vercel. Typography is stylized with Inter.
         </p>
         <p className="font-extralight text-xs  text-center md:text-start px-8 ">
           Developed and designed by Spano Matias, © Copyright 2024.

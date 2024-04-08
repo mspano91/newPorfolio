@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className="md:h-auto w-full p-4 lg:p-0">
       <h1
-        className={`${inter.className} md:text-5xl text-3xl md:text-start px-8 text-center`}
+        className={`${inter.className} xl:text-5xl text-3xl lg:text-start px-8 text-center`}
       >
         My Projects
       </h1>

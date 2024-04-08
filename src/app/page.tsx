@@ -6,8 +6,8 @@ import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-6 md:p-24">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-6 xl:gap-[89px] pt-10 px-auto md:px-7">
+    <main className="flex min-h-screen  flex-col items-center justify-between pt-6 md:p-24">
+      <div className="flex flex-col lg:flex-row justify-center gap-6 xl:gap-[89px] pt-10 md:px-7">
         <div className="flex flex-row justify-center md:justify-start">
           <PresentationCard />
         </div>

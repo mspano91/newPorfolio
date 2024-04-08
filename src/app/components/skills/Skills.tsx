@@ -39,8 +39,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="py-10 w-full px-7">
-      <h1 className="md:text-5xl text-3xl md:text-start px-8 text-center ">
+    <div className="py-10 w-full px-8">
+      <h1 className="xl:text-5xl text-3xl lg:text-start  text-center ">
         Current skills
       </h1>
       <div className="gap-3 grid grid-cols-2 sm:grid-cols-4 py-10">
