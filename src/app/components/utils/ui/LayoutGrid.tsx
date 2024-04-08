@@ -22,12 +22,12 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    <div className="w-full md:w-full h-full p-6 grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto gap-3 md:gap-4">
+    <div className="w-full md:w-full h-full p-6 block md:grid  md:grid-cols-3 max-w-7xl mx-auto  md:gap-4">
       {cards.map((card, i) => (
         <div key={i} className={card.className}>
           <motion.div
             onClick={() => handleClick(card)}
-            className={`relative overflow-hidden bg-white rounded-xl h-full ${card.className}`}
+            className={`relative overflow-hidden bg-white rounded-xl h-full mt-4 ${card.className}`}
             layout
           >
             {selected && selected.id === card.id && (
@@ -57,7 +57,7 @@ const BlurImage = ({ card }: { card: Card }) => {
       <Image
         src={card.thumbnail}
         height="500"
-        width="500"
+        width="800"
         className="object-cover object-top h-full w-full transition duration-200"
         alt="thumbnail"
       />
