@@ -39,7 +39,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="py-10 w-full">
+    <div className="py-10 w-full px-4">
       <h1 className="md:text-5xl text-3xl md:text-start px-8 text-center ">
         Current skills
       </h1>

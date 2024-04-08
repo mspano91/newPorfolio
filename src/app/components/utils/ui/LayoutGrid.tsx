@@ -22,7 +22,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    <div className="w-[420px] md:w-full h-full p-10 grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto gap-3 md:gap-4">
+    <div className="w-[420px] md:w-full h-full p-6 grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto gap-3 md:gap-4">
       {cards.map((card, i) => (
         <div key={i} className={card.className}>
           <motion.div
@@ -66,5 +66,5 @@ const BlurImage = ({ card }: { card: Card }) => {
 };
 
 const SelectedCard = ({ selected }: { selected: Card }) => {
-  return null; // No necesitamos un componente adicional para el modal, ya que se renderizará directamente en LayoutGrid.
+  return null;
 };

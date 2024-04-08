@@ -5,10 +5,7 @@ import Skills from "@/app/components/skills/Skills";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between md:p-24">
-      <div
-        className="md:w-[1280px] pt-10 flex flex-row justify-start
-      md:p-10"
-      >
+      <div className="w-auto md:w-[1280px] pt-10 flex flex-row justify-start md:p-8">
         <PresentationCard />
       </div>
       <div>

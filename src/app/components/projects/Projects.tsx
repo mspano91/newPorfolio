@@ -1,8 +1,8 @@
 "use client";
-import res1 from "../assets/img/res1.png";
-import res2 from "../assets/img/res2.png";
-import res3 from "../assets/img/res3.png";
-import res4 from "../assets/img/res4.png";
+import res1 from "../../../../public/assets/projectsPics/res1.png";
+import res2 from "../../../../public/assets/projectsPics/res2.png";
+import res3 from "../../../../public/assets/projectsPics/res3.png";
+import res4 from "../../../../public/assets/projectsPics/res4.png";
 import React from "react";
 import { LayoutGrid } from "@/app/components/utils/ui/LayoutGrid";
 import { Inter } from "next/font/google";
@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Projects() {
   return (
-    <div className="h-screen w-full">
+    <div className="md:h-screen w-full ">
       <h1
-        className={`${inter.className} md:text-5xl text-3xl md:text-start px-10 text-center `}
+        className={`${inter.className} md:text-5xl text-3xl md:text-start px-8 text-center`}
       >
         My Projects
       </h1>
