@@ -40,7 +40,7 @@ const Skills = () => {
 
   return (
     <div className="py-10 w-full px-8">
-      <h1 className="xl:text-5xl text-3xl sm:text-start text-center">
+      <h1 className="xl:text-5xl text-3xl sm:text-start md:px-0 text-center">
         Current skills
       </h1>
       <div className="gap-6 lg:gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-10">
