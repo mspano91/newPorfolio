@@ -39,11 +39,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="py-10 w-full">
-      <h1 className="xl:text-5xl text-3xl lg:text-start lg:pl-8 text-center ">
+    <div className="py-10 w-full px-8">
+      <h1 className="xl:text-5xl text-3xl lg:text-start text-center">
         Current skills
       </h1>
-      <div className="gap-3 grid grid-cols-2 sm:grid-cols-4 py-10 border px-8">
+      <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-10">
         {list.map((item, index) => (
           <Card
             shadow="sm"
@@ -51,7 +51,7 @@ const Skills = () => {
             isPressable
             onPress={() => console.log("item pressed")}
           >
-            <CardBody className="overflow-visible p-0 w-auto">
+            <CardBody className="overflow-visible p-0 w-full">
               <Image
                 shadow="sm"
                 radius="none"

@@ -16,7 +16,7 @@ export default function Projects() {
       >
         My Projects
       </h1>
-      <div className="md:h-auto w-full p-4 lg:p-0 border">
+      <div className="md:h-auto w-full p-4 lg:p-0">
         <LayoutGrid cards={videos} />
       </div>
     </div>
