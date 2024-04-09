@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col">
       <h1
-        className={`${inter.className} xl:text-5xl text-3xl lg:text-start lg:pl-8 px-8 md:px-0 text-center`}
+        className={`${inter.className} xl:text-5xl text-3xl sm:text-start lg:pl-8 px-8 md:px-0 text-center`}
       >
         My Projects
       </h1>

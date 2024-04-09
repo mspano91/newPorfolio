@@ -9,7 +9,7 @@ export default function Tittle() {
       <h1 className="font-semibold text-4xl xl:text-7xl py-1 text-center md:text-start lg:text-start ">
         Im Mati Spano
       </h1>
-      <h1 className="font-extralight md:text-2xl py-1 text-center md:text-start lg:text-2xl lg:text-start ">
+      <h1 className="font-extralight md:text-xl py-1 text-center md:text-start lg:text-2xl lg:text-start ">
         and this is my tech profile!
       </h1>
     </div>
