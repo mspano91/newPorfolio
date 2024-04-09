@@ -14,8 +14,8 @@ const PresentationCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
 
   return (
-    <Card className="max-w-[300px] min-w-[340px] max-h-[250px] bg-neutral-700">
-      <CardHeader className="flex justify-around">
+    <Card className="max-w-[400px] min-w-[400px] max-h-[220px] bg-neutral-700">
+      <CardHeader className="flex justify-around pl-4 gap-4">
         <Avatar
           isBordered
           radius="full"
@@ -26,7 +26,7 @@ const PresentationCard = () => {
         <div className="flex gap-5">
           <div className="flex flex-col gap-1 items-start justify-center">
             <h4 className="text-medium text-white font-semibold leading-none">
-              Mati Spano 💻⚡
+              Matias Pablo Spano 💻⚡
             </h4>
             <h5 className="text-small tracking-tight text-default-400">
               @mrspano
