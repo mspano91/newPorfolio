@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tittle() {
   return (
-    <div className="w-auto xl:w-[770px]">
+    <div className="w-auto xl:w-[770px] border">
       <p className="font-extralight xl:text-2xl py-2 text-center md:text-start lg:text-start">
         Hey everyone...
       </p>
