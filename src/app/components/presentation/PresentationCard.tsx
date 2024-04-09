@@ -15,13 +15,13 @@ const PresentationCard = () => {
 
   return (
     <Card className="max-w-[300px] min-w-[340px] max-h-[250px] bg-neutral-700">
-      <CardHeader className="flex">
+      <CardHeader className="flex justify-around">
         <Avatar
           isBordered
           radius="full"
           size="lg"
           src="/assets/mati9.png"
-          className="mx-auto transition-transform duration-300 ease-in-out hover:scale-150 hover:translate-y-4 hover:translate-x-4 z-10"
+          className="transition-transform duration-300 ease-in-out hover:scale-150 hover:translate-y-4 hover:translate-x-4 z-10"
         />
         <div className="flex gap-5">
           <div className="flex flex-col gap-1 items-start justify-center">

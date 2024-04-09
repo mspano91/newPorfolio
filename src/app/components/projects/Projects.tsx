@@ -10,13 +10,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Projects() {
   return (
-    <div className="flex flex-col border">
+    <div className="flex flex-col">
       <h1
         className={`${inter.className} xl:text-5xl text-3xl lg:text-start lg:pl-8 px-8 md:px-0 text-center`}
       >
         My Projects
       </h1>
-      <div className="md:h-auto w-full p-4 lg:p-0">
+      <div className="md:h-auto w-full px-4 lg:p-0">
         <LayoutGrid cards={videos} />
       </div>
     </div>

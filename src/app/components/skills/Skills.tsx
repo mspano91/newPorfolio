@@ -39,11 +39,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="py-10 w-full px-8 border">
+    <div className="py-10 w-full px-8">
       <h1 className="xl:text-5xl text-3xl lg:text-start text-center ">
         Current skills
       </h1>
-      <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-10 border">
+      <div className="gap-6 lg:gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-10">
         {list.map((item, index) => (
           <Card
             shadow="sm"
