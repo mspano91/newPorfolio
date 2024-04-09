@@ -14,8 +14,8 @@ const PresentationCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
 
   return (
-    <Card className="max-w-[354px] min-w-[354px] max-h-[250px] bg-neutral-700 ">
-      <CardHeader className="justify-between">
+    <Card className="max-w-[330px] min-w-[330px] max-h-[250px] bg-neutral-700 ">
+      <CardHeader className="flex flex-row gap-2">
         <Avatar
           isBordered
           radius="full"
@@ -23,7 +23,7 @@ const PresentationCard = () => {
           src="/assets/mati9.png"
           className="mx-auto transition-transform duration-300 ease-in-out hover:scale-150 hover:translate-y-4 hover:translate-x-4 z-10"
         />
-        <div className="flex gap-5">
+        <div className="flex gap-5 pr-12">
           <div className="flex flex-col gap-1 items-start justify-center">
             <h4 className="text-medium text-white font-semibold leading-none">
               Mati Spano 💻⚡
@@ -33,7 +33,7 @@ const PresentationCard = () => {
             </h5>
           </div>
         </div>
-        <Button
+        {/* <Button
           className={
             isFollowed
               ? "bg-transparent text-foreground border-default-200 w-[80px]"
@@ -46,7 +46,7 @@ const PresentationCard = () => {
           onPress={() => setIsFollowed(!isFollowed)}
         >
           {isFollowed ? "Unfollow" : "Follow"}
-        </Button>
+        </Button> */}
       </CardHeader>
       <CardBody className="px-3 py-0 text-small text-white">
         <p>
