@@ -47,7 +47,7 @@ export default function AboutMe() {
                 technology. As a lifelong resident of Buenos Aires, before
                 delving into the world of technology, I obtained a degree in
                 auctions and commercial mediation. I also completed studies in
-                marketing and relevant UX/UI design courses.{" "}
+                marketing and relevant UX/UI design courses.
               </p>
 
               <p>
@@ -55,7 +55,7 @@ export default function AboutMe() {
                 to speak Italian and significantly improved my English while
                 working in tourism. This journey served me well both personally
                 and professionally, encompassing everything that comes with
-                stepping out of one's comfort zone.
+                stepping out of ones comfort zone.
               </p>
               <p>
                 In 2023, I took a leap and trained in modern Fullstack
