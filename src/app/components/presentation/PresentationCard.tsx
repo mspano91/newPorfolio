@@ -11,10 +11,8 @@ import {
 import Link from "next/link";
 
 const PresentationCard = () => {
-  const [isFollowed, setIsFollowed] = React.useState(false);
-
   return (
-    <Card className="w-auto h-auto max-h-[280px] bg-neutral-700">
+    <Card className="w-auto min-h-[210px]  max-h-[210px] bg-neutral-700">
       <CardHeader className="flex justify-between pl-4 gap-4">
         <Avatar
           isBordered
@@ -33,20 +31,6 @@ const PresentationCard = () => {
             </h5>
           </div>
         </div>
-        {/* <Button
-          className={
-            isFollowed
-              ? "bg-transparent text-foreground border-default-200 w-[80px]"
-              : ""
-          }
-          color="primary"
-          radius="full"
-          size="sm"
-          variant={isFollowed ? "bordered" : "solid"}
-          onPress={() => setIsFollowed(!isFollowed)}
-        >
-          {isFollowed ? "Unfollow" : "Follow"}
-        </Button> */}
       </CardHeader>
       <CardBody className="px-3 py-0 text-small text-white">
         <p>
@@ -67,7 +51,6 @@ const PresentationCard = () => {
           </Link>
         </div>
         <div className="flex gap-1">
-          {/* <p className="font-semibold text-default-400 text-small">97.1K</p> */}
           <Link target="_blank" href="https://github.com/mspano91">
             <p className="text-default-300 text-small hover:text-[#609ee4] hover:cursor-pointer">
               Github
