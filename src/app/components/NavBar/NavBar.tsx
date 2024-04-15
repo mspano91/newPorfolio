@@ -1,35 +1,56 @@
+"use client";
 import React from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
-  Button,
 } from "@nextui-org/react";
 import AboutMe from "../aboutMe/AboutMe";
 
-export default function NavBar() {
+interface NavBarProps {}
+
+const NavBar: React.FC<NavBarProps> = () => {
+  const smoothScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
-    <Navbar className="bg-black  flex flex-row justify-between">
+    <Navbar className="bg-black flex flex-row justify-between">
       <NavbarBrand className="">
-        <p className="font-bold md:pl-2 text-inherit">MS Front-Dv</p>
+        <p
+          className="font-bold md:pl-2 text-inherit"
+          onClick={() => smoothScroll("home")}
+        >
+          MS Front-Dv
+        </p>
       </NavbarBrand>
-      <NavbarContent className="sm:flex gap-4" justify="end">
+      <NavbarContent className="sm:flex gap-4" justify="start">
         <NavbarItem>
           <AboutMe />
         </NavbarItem>
         <NavbarItem>
-          <Link href="#skills">
-            <p className="cursor-pointer text-end">Skills</p>
-          </Link>
+          <p
+            className="cursor-pointer text-end"
+            onClick={() => smoothScroll("skills")}
+          >
+            Skills
+          </p>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#projects">
-            <p className="cursor-pointer">Projects</p>
-          </Link>
+          <p
+            className="cursor-pointer"
+            onClick={() => smoothScroll("projects")}
+          >
+            Projects
+          </p>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
   );
-}
+};
+
+export default NavBar;

@@ -32,8 +32,8 @@ const PresentationCard = () => {
           </div>
         </div>
       </CardHeader>
-      <CardBody className="px-3 py-0 text-small text-white">
-        <p>
+      <CardBody className="h-full px-3 py-0 text-small text-white ">
+        <p className="">
           Front-end developer and UI/UX enthusiast. <br />
           Join me on this coding adventure!
         </p>

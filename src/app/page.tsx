@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <div className="flex justify-center">
+    <div id="home" className="flex cursor-pointer justify-center">
       <main className="flex min-h-screen flex-col items-center justify-between lg:items-start pt-0 md:p-2">
         <NavBar />
         <div className="flex flex-col md:flex-row justify-center gap-6 xl:gap-[40px] px-8 pt-8 ">
