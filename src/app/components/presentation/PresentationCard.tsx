@@ -12,7 +12,8 @@ import Link from "next/link";
 
 const PresentationCard = () => {
   return (
-    <Card className="w-auto min-h-[210px]  max-h-[210px] bg-neutral-700">
+    // <Card className="w-auto min-h-[210px]  max-h-[210px] bg-neutral-700">
+    <Card className=" bg-neutral-700">
       <CardHeader className="flex justify-between pl-4 gap-4">
         <Avatar
           isBordered
@@ -32,7 +33,7 @@ const PresentationCard = () => {
           </div>
         </div>
       </CardHeader>
-      <CardBody className="h-full px-3 py-0 text-small text-white ">
+      <CardBody className="px-3 py-0 text-small text-white ">
         <p className="">
           Front-end developer and UI/UX enthusiast. <br />
           Join me on this coding adventure!
