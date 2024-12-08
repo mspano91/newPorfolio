@@ -36,7 +36,7 @@ const PresentationCard = () => {
       <CardBody className="px-3 py-0 text-small text-white ">
         <p className="">
           Front-end developer and UI/UX enthusiast. <br />
-          Join me on this coding adventure!!
+          Join me on this coding adventure!
         </p>
       </CardBody>
       <CardFooter className="gap-3">
