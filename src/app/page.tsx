@@ -21,7 +21,7 @@ export default function Home() {
         <div>
           <Skills />
         </div>
-        <div className="z-10 max-w-5xl items-center justify-between text-sm blo lg:flex">
+        <div className="z-10 max-w-7xl items-center justify-between text-sm blo lg:flex">
           <Projects />
         </div>
         <div className="flex justify-start xl:w-[1280px]">
