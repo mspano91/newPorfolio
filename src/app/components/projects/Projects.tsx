@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Projects() {
   return (
-    <div className="flex flex-col px-8">
-      <div id="projects" className="md:h-auto w-full lg:p-0 ">
+    <div className='flex flex-col px-8 '>
+      <div id="projects" className="md:h-auto lg:p-0 ">
         <h1
           className={`${inter.className} xl:text-5xl text-3xl sm:text-start md:px-0 text-center`}
         >
